@@ -1,0 +1,61 @@
+$dark: #1b3b59;
+$light: #fff;
+
+$dark-100: rgba(27, 59, 89, 0.1);
+$dark-200: rgba(27, 59, 89, 0.2);
+$dark-300: rgba(27, 59, 89, 0.25);
+$dark-400: rgba(27, 59, 89, 0.4);
+$dark-500: rgba(61, 92, 255, 0.05);
+$dark-600: rgba(27, 59, 89, 0.6);
+$dark-700: rgba(27, 59, 89, 0.8);
+
+$light-100: #f5f9fe;
+$light-150: #eff1f5;
+
+$light-200: #f1f7fd;
+$light-300: #e2ecf3;
+$light-400: #b8b8d2;
+
+$danger: #ef5635;
+$success: #59aa3d;
+$warning: #ffc061;
+
+$green-100: #c8fadc;
+$green-200: #429664;
+$green-300: #349313;
+
+$blue-100: #d8ecff;
+$blue-200: #2d99ff;
+$blue-300: #3d5cff;
+$blue-400: #2f71b0;
+
+$addon-clr-1: #d8ecff;
+$addon-clr-2: #ecdbff;
+$addon-clr-3: #ffdbcf;
+$addon-clr-4: #c8fadc;
+$addon-clr-5: #ffd4f5;
+
+$orange-100: #fff0c9;
+$orange-200: #ffdbcf;
+$orange-300: #ff8c3f;
+$orange-400: #fc6f11;
+
+$purple-100: #ecdbff;
+$purple-200: #e43eff;
+$purple-300: #8d45dc;
+$purple-400: #a32dff;
+$purple-500: #994d87;
+
+$pink-100: #ffd4f5;
+$pink-200: #ff3f84;
+
+$black: #1c1c1c;
+
+$font-family-base: Nunito Sans;
+
+$theme-colors: (
+  "success": $success,
+  "warning": $warning,
+  "light": $light,
+  "dark": $dark,
+);

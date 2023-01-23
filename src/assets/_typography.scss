@@ -1,0 +1,93 @@
+@import './fonts/nunito.scss';
+@import 'variables.scss';
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/variables';
+
+.heading {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: $dark;
+}
+
+.body {
+  top: 33px;
+  font-family: $font-family-base;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: $black;
+  opacity: 0.6;
+}
+
+@mixin headingProperty($fontSize, $lineHeight) {
+  font-size: $fontSize;
+  line-height: $lineHeight;
+}
+
+@mixin bodyProperty( $left, $fontWeight) {
+  left: $left;
+  font-weight: $fontWeight;
+}
+
+h1 {
+  @extend .heading;
+  @include headingProperty(36px, 48px);
+  color: $gray-400;
+}
+
+h2 {
+  @extend .heading;
+  @include headingProperty(32px, 40px);
+}
+
+h3 {
+  @extend .heading;
+  @include headingProperty(28px, 36px);
+}
+
+h4 {
+  @extend .heading;
+  @include headingProperty(24px, 32px);
+}
+
+h5 {
+  @extend .heading;
+  @include headingProperty(20px, 28px);
+}
+
+h6 {
+  @extend .heading;
+  @include headingProperty(18px, 24px);
+}
+
+.h7 {
+  @extend .heading;
+  @include headingProperty(14px, 20px);
+}
+
+.body1 {
+  @extend .body;
+  @include bodyProperty(28px, 400);
+}
+
+.body2 {
+  @extend .body;
+  @include bodyProperty(310px, 600);
+}
+
+.body3 {
+  @extend .body;
+  @include bodyProperty(592px, 700);
+}
+
+.fs-7 {
+  font-size: 14px;
+}
+
+.fs-8 {
+  font-size: 12px;
+}
+
